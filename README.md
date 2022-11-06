@@ -1,5 +1,6 @@
 # Smart-Drivers
 [smartdrivers.tech](smartdrivers.tech)
+
 A free sober driving service available to all students at a given university.
 
 <img width="1489" alt="face_rec" src="https://github.com/AshlynHanson/Smart-Drivers/blob/e917b17bbe4a3bca4d99433ac32f823088c9364f/images/homePage.png">
