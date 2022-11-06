@@ -35,10 +35,10 @@ We have heard countless stories from people all over college campuses discussing
 * Improve the mobile friendliness of the site
     
 ## Authors
-* Ashlyn Hanson
-* Rebecca Rushman
-* Jasmine Phung
-* Malia Johnson
+* Ashlyn Hanson - adh5584@truman.edu
+* Rebecca Rushman - rlr5148@truman.edu
+* Jasmine Phung - jlp7645@truman.edu
+* Malia Johnson - mj1184@truman.edu
 
 ## Version History
 
