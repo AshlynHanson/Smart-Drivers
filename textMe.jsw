@@ -1,8 +1,8 @@
 import twilio from 'twilio'
 import wixData from 'wix-data';
 
-const accountSID = 'AC630c7cff806b0bf57729f59c17130ee1'
-const authToken = 'b978807f8db357d39b1780b610576d22'
+const accountSID = '********************************'
+const authToken = '****************************'
 const twilioNumber = '+18583302671'
 
 let driver = 'help';
