@@ -1,0 +1,49 @@
+import twilio from 'twilio'
+import wixData from 'wix-data';
+
+const accountSID = 'AC630c7cff806b0bf57729f59c17130ee1'
+const authToken = 'b978807f8db357d39b1780b610576d22'
+const twilioNumber = '+18583302671'
+
+let driver = 'help';
+
+export async function sendSMStoPass()
+{
+  let driver = 'new';
+
+  wixData.query("contact03")
+  .find()
+  .then((results) => {
+    if(results.items.length > 0) {
+      console.log("1:" + results.items[0].phone); //see item below
+      setValue('+1' + results.items[0].phone);
+    }
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+    let client = new twilio(accountSID, authToken)
+
+    let message = await client.messages.create({
+        body: 'Hi Jasmine, thank you for using Smart Drivers! Your driver, Ashlyn, will text you soon about car type and ETA. ',
+        to: '+13143593819',
+        from: twilioNumber
+    })
+}
+
+export async function setValue(value) {
+  driver = value;
+  console.log("SetVAlue: " + driver);
+}
+
+export async function sendSMStoDriver()
+{
+    let client = new twilio(accountSID, authToken)
+
+    let message = await client.messages.create({
+        body: 'Hi Ashlyn, thank you for volunteering for Smart Drivers! Please pick up your passenger, Jasmine, at: 123 Founder St. and drop Jasmine off at: 321 Yorktown Ave.',
+        to: '+18166991903',
+        from: twilioNumber
+    })
+}
