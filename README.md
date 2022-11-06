@@ -5,7 +5,11 @@ A free sober driving service available to all students at a given university.
 
 <img width="1489" alt="face_rec" src="https://github.com/AshlynHanson/Smart-Drivers/blob/e917b17bbe4a3bca4d99433ac32f823088c9364f/images/homePage.png">
 
-[![Watch the video](https://www.youtube.com/watch?v=AjVMWQ7360U)
+[Watch the video](https://www.youtube.com/watch?v=AjVMWQ7360U)
+
+https://user-images.githubusercontent.com/44590338/200181581-04341338-c23e-4d89-9ff4-47caa5ba5d46.mp4
+
+
 
 ## Description
 
