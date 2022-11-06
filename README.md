@@ -5,6 +5,8 @@ A free sober driving service available to all students at a given university.
 
 <img width="1489" alt="face_rec" src="https://github.com/AshlynHanson/Smart-Drivers/blob/e917b17bbe4a3bca4d99433ac32f823088c9364f/images/homePage.png">
 
+[![Watch the video](https://www.youtube.com/watch?v=AjVMWQ7360U)
+
 ## Description
 
 This is a project created for the Mizzou 2022 Tigerhacks hackathon. It is a Wix website to provide a sober driving service to all students at a given university. It provides forms for students to fill out to either drive or be a passenger and Twilio to send text messages to both a sober driver and a student who requests a ride.
